@@ -1,18 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "GatsbyOne",
+    title: "Gatsby One",
   },
   plugins: [
-    "gatsby-plugin-gatsby-cloud",
-    "gatsby-transformer-remark",
-    "gatsby-plugin-mdx",
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown`,
       },
-      __key: "pages",
     },
+    `gatsby-transformer-remark`,
   ],
-};
+}
