@@ -4,6 +4,16 @@ date: "2021-06-11"
 title: "Warner Brothers"
 ---
 
+## Objective
+
+## Intended Reader
+
+## What You'll Be Doing
+
+## What You Need
+
+## Main Content Area
+
 * Bugs Bunny
 * Daffy Duck
 * Porky Pig
