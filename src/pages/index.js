@@ -30,6 +30,15 @@ const IndexPage = () => (
                     Flintstones
     </Link>
             </h2></li>
+
+            <li>        <h2>
+                <Link
+                    to="/cartoons/warnerbros"
+                    activeStyle={{ color: "red" }}
+                >
+                    Warner Brothers
+    </Link>
+            </h2></li>
         </ul>
 
 
