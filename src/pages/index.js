@@ -22,6 +22,14 @@ const IndexPage = () => (
                     Stooges
     </Link>
             </h2></li>
+            <li>        <h2>
+                <Link
+                    to="/cartoons/flintstones"
+                    activeStyle={{ color: "red" }}
+                >
+                    Flintstones
+    </Link>
+            </h2></li>
         </ul>
 
 
