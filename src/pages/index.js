@@ -39,6 +39,15 @@ const IndexPage = () => (
                     Warner Brothers
     </Link>
             </h2></li>
+    
+            <li>        <h2>
+                <Link
+                    to="/technology/mimik/"
+                    activeStyle={{ color: "red" }}
+                >
+                    mimik
+    </Link>
+            </h2></li>
         </ul>
 
 

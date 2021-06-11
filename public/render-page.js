@@ -35,7 +35,7 @@ var plugins = [{
     "maintainCase": false,
     "removeAccents": true,
     "isIconAfterHeader": true,
-    "elements": ["h1", "h4"]
+    "elements": ["h1", "h3", "h2", "h4"]
   }
 }]; // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
