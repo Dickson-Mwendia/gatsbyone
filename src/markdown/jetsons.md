@@ -2,6 +2,7 @@
 slug: "/cartoons/jetsons"
 date: "2021-06-10"
 title: "Jetsons"
+seo: "cartoons, animation, usa"
 ---
 
 * George

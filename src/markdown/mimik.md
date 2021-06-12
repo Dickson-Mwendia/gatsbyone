@@ -2,6 +2,7 @@
 slug: "/technology/mimik"
 date: "2021-06-11"
 title: "mimik edge"
+seo: "edge, containers, iot"
 ---
 
 

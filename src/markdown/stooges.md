@@ -2,6 +2,7 @@
 slug: "/cartoons/stooges"
 date: "2021-06-10"
 title: "Stooges"
+seo: "comedy, television, usa"
 ---
 
 * Moe
