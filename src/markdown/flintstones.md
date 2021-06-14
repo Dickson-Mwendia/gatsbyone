@@ -2,6 +2,7 @@
 slug: "/cartoons/flintstones"
 date: "2021-06-10"
 title: "Flintstones"
+seo: "cartoons, animation, usa"
 ---
 TABLE OF CONTENTS
 

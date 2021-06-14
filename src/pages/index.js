@@ -39,7 +39,11 @@ const IndexPage = () => (
                     Warner Brothers
     </Link>
             </h2></li>
-    
+        </ul>
+
+
+        <h1>Technology</h1>
+        <ul>
             <li>        <h2>
                 <Link
                     to="/technology/mimik/"
@@ -50,8 +54,8 @@ const IndexPage = () => (
             </h2></li>
         </ul>
 
-
     </div>
+
 
 );
 

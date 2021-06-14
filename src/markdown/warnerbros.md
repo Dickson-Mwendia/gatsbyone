@@ -2,6 +2,7 @@
 slug: "/cartoons/warnerbros"
 date: "2021-06-11"
 title: "Warner Brothers"
+seo: "cartoons, animation, usa"
 ---
 
 
