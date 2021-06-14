@@ -5,6 +5,8 @@ title: "Stooges"
 seo: "comedy, television, usa"
 ---
 
+# Characters
+
 * Moe
 * Larry
 * Curly
@@ -12,3 +14,5 @@ seo: "comedy, television, usa"
 * Also, don't forget Joe Besser
 
 Go to the Jetsons [here](/cartoons/jetsons)
+
+# Comments
