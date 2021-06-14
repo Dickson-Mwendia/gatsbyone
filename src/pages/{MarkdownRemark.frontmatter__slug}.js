@@ -9,8 +9,8 @@ export default function Template({
   return (
     <div className="blog-post-container">
       <div className="blog-post">
+        <img alt="mimik.com" src="https://mimik.com/wp-content/uploads/2020/01/edge-cloud-logo.png" />
         <h1>{frontmatter.title}</h1>
-        <h2>{frontmatter.date}</h2>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: html }}

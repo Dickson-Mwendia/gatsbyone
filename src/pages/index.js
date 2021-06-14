@@ -9,8 +9,11 @@ const BlogPage = ({ data }) => {
       {
         data.allMarkdownRemark.edges.map(({node}) => (
           <li key={node.frontmatter.seo}>
-            <Link to={node.frontmatter.slug}>
-            {node.frontmatter.title} :  {node.frontmatter.author} 
+            <Link 
+            activeStyle={{ color: "black" }}
+            className="nav-link-text"
+            to={node.frontmatter.slug}>
+            {node.frontmatter.title}
             </Link>
           </li>
         ))

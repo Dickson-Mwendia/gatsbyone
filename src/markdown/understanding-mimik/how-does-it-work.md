@@ -1,5 +1,5 @@
 ---
-slug: "/understading_mimik/how-it-does-it"
+slug: "/understading-mimik/how-it-does-it"
 date: "2021-06-11"
 title: "How Does edgeEngine Work?"
 seo: "mimik, edge, edgeEngine"
