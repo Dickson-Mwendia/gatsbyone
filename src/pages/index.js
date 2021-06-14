@@ -10,7 +10,7 @@ const BlogPage = ({ data }) => {
         data.allMarkdownRemark.edges.map(({node}) => (
           <li key={node.frontmatter.seo}>
             <Link to={node.frontmatter.slug}>
-            {node.frontmatter.title}
+            {node.frontmatter.title} :  {node.frontmatter.author} 
             </Link>
           </li>
         ))
@@ -29,6 +29,7 @@ query {
             seo
             slug
             title
+            author
           }
         }
       }
