@@ -29,7 +29,6 @@ query {
             seo
             slug
             title
-            author
           }
         }
       }
