@@ -92,7 +92,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
         },
       } = data;
 
-      const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
+      const finalLogoLink = logo.link !== '' ? logo.link : 'https://mimik.com';
 
       return (
         <div className={'navBarWrapper'}>

@@ -8,6 +8,10 @@ import NextPrevious from '../components/NextPrevious';
 import config from '../../config';
 import { Edit, StyledHeading, StyledMainWrapper } from '../components/styles/Docs';
 
+import favicon16 from "../images/favicon16.png";
+import favicon32 from "../images/favicon32.png";
+import favicon64 from "../images/favicon64.ico";
+
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
 export default class MDXRuntimeTest extends Component {
@@ -87,7 +91,14 @@ export default class MDXRuntimeTest extends Component {
           {metaDescription ? (
             <meta property="twitter:description" content={metaDescription} />
           ) : null}
-          <link rel="canonical" href={canonicalUrl} />
+
+
+          <link
+            rel="canonical" href={canonicalUrl}
+            rel="icon" href={favicon16} type="image/png"  sizes="16x16" 
+          />
+
+
         </Helmet>
         <div className={'titleWrapper'}>
           <StyledHeading>{mdx.fields.title}</StyledHeading>
