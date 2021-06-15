@@ -5,12 +5,12 @@ title: "Your First Microservice"
 seo: "mimik, edge, edgeEngine"
 ---
 
-## Objective
+# Objective
 
 
 The objective of this project is show you how to create an Edge microservice on your local developement machine using this demonstration `starter-microservice`
 
-## Definition of Terms
+# Definition of Terms
 
 | term | definition |
 |-----------|------------|
@@ -22,7 +22,7 @@ The objective of this project is show you how to create an Edge microservice on 
 
 
 
-## Important Installation Prerequisites
+# Important Installation Prerequisites
 
 
 In order to create a microservice using mimik Edge, **you must have a mimik Developer account.** You can sign up for a mimik Developer account here: [https://developer.mimik.com/console](https://developer.mimik.com/console).
@@ -39,19 +39,19 @@ Also, you will need to create an Edge Access Token.
 The following sections provide the information for installing the prerequisites.
 
 
-### Installing the mimik edgeEngine
+## Installing the mimik edgeEngine
 
 You can find the various versions of edgeEngine at this URL: [https://github.com/mimikgit/edgeSDK/releases](https://github.com/mimikgit/edgeSDK/releases). Select the artifact relevant to your development environment and the run the setup executable or uncompress the `.tar` file, depending on the targeted operating system.
 
 After you have edgeEngine downloaded and installed, you need to get it up and running. You can find the instructions for installing and running the version of the mimik edgeEngine that is appropriate to your development machine at this URL: [https://developer.mimik.com/installation-guide/](https://developer.mimik.com/installation-guide/).
 
-### Installing mimik edgeEngine CLI Tool
+## Installing mimik edgeEngine CLI Tool
 
 Once the mimik edgeEngine are installed, execute the following command to install the mimik edgeEngine CLI Tool.
 
 `npm install -g @mimik/mimik-edge-cli`
 
-### Creating an Edge Access Token and binding it to your account
+## Creating an Edge Access Token and binding it to your account
 
 The last thing you'll need to to is create an Edge Access Token and bind it to your mimik account using the edgeEngine CLI Tool. The Edge Access Token makes the running instance of edgeEngine visible to other instances of edgeEngine running in the cluster.
 
@@ -59,7 +59,7 @@ You'll find the instuctions for creating an Edge Access Token and binding it to 
 
 Once all the prerequisites are satisfied you are ready to create the `starter-microservice`.
 
-## Build Process
+# Build Process
 
 The following steps will install the Node.js packages needed to create the the `starter-microservice`, build the microservice and then package it up in to a `.tar` file.
 
@@ -100,7 +100,7 @@ Pay special attention to the location of the generated `.tar` file for the `star
 
 ...you're going to use it.
 
-## Deploying the `starter-microservice`
+# Deploying the `starter-microservice`
 
 **Step 1:** Run the following command in the same directory in which you generated the `.tar` file for the `starter-microservice`.
 
