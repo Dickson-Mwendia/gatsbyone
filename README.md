@@ -1,5 +1,7 @@
 # Getting Up and Running
 
+This project works best using the [`yarn`](https://classic.yarnpkg.com/en/docs/install/#mac-stable) to install packages
+
 
 ```
 yarn install
@@ -17,5 +19,5 @@ In your browser, go to:
 http://localhost:8000
 ```
 
-[TO BE PROVIDED]
+[MORE TO COME]
 
