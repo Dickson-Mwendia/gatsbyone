@@ -1,5 +1,5 @@
 ---
-title: "Key Concepts"
+title: "Key Concepts..."
 ---
 
 This is about key-concepts

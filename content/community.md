@@ -1,4 +1,4 @@
 ---
-title: "Welcome to mimik Community"
+title: "Community..."
 ---
 [TO BE PROVIDED]
