@@ -242,24 +242,3 @@ Hello World
 
 
 For more information and explanation, you can visit our [mCM container management API references](https://developer.mimik.com/edgeengine-mcm-api/) and [general guide on packaging, deployment, and exporting microservice](https://developer.mimik.com/building-edge-microservices/).
-
-
-## Objective
-
-[TO BE PROVIDED]
-
-## Intended Reader
-
-[TO BE PROVIDED]
-
-## What You'll Be Doing
-
-[TO BE PROVIDED]
-
-## What You'll Need
-
-[TO BE PROVIDED]
-
-## Main Content Area
-
-[TO BE PROVIDED]
