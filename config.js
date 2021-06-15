@@ -38,17 +38,19 @@ const config = {
       '/troubleshooting'
     ],
     collapsedNav: [
+      '/introduction',
       '/key-concepts',
       '/tutorials',
       '/api',
       '/community',
+      '/market-considerations',
       '/glossary/',
     ],
     links: [{ text: 'mimik', link: 'https://mimik.com' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "",
+      "mimik Developer Documentation",
   },
   siteMetadata: {
     title: 'mimik Developer Portal | mimik',

@@ -5,15 +5,6 @@ title: "Your First Microservice"
 seo: "mimik, edge, edgeEngine"
 ---
 
-TABLE OF CONTENTS
-
-* [Objective](#objective)
-* [Definition of Terms](#definition-of-terms)
-* [Important Installation Prerequisites](#important-installation-prerequisites)
-* [Build Process](#build-process)
-* [Deploying the `starter-microservice`](#deploying-the-starter-microservice)
-
-
 ## Objective
 
 
