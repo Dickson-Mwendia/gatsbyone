@@ -1,5 +1,5 @@
 ---
-title: "Hybrid Edge Cloud Leveraging AWS to Support Edge Microservice Mesh"
+title: " Leveraging Edge Cloud on AWS to Support an Edge Microservice Mesh"
 seo: "mimik, edge, edgeEngine, edge cloud"
 ---
 
