@@ -1,6 +1,6 @@
 ---
-title: "What Does mimik Do?"
-seo: "mimik, edge, edgeEngine"
+title: "Creating an Raspberry Pi edgeEngine Cluster"
+seo: "mimik, edge, edgeEngine, Raspberry Pi"
 ---
 
 # Objective
@@ -16,5 +16,9 @@ seo: "mimik, edge, edgeEngine"
 [TO BE PROVIDED]
 
 # What You'll Need
+
+[TO BE PROVIDED]
+
+# [MAIN CONTENT TITLE]
 
 [TO BE PROVIDED]

@@ -1,8 +1,6 @@
 ---
-slug: "/market-considerations/telecom"
-date: "2021-06-11"
-title: "Market Considerations: Telecom"
-seo: "mimik, edge, edgeEngine"
+title: "mimik and Telecom"
+seo: "mimik, edge, edgeEngine, telecom"
 ---
 
 [TO BE PROVIDED]

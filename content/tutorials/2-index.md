@@ -1,6 +1,4 @@
 ---
-slug: "/tutorials/creating-services/creating-services"
-date: "2021-06-11"
 title: "Your First Microservice"
 seo: "mimik, edge, edgeEngine"
 ---

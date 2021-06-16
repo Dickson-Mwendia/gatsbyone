@@ -1,6 +1,4 @@
 ---
-slug: "/key-concepts/understanding-mimik-images-and-containers"
-date: "2021-06-11"
 title: "Understanding mimik Images and Containers"
 seo: "mimik, edge, edgeEngine"
 ---

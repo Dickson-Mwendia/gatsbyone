@@ -1,26 +1,24 @@
 ---
-slug: "/api/command-line-reference"
-date: "2021-06-11"
 title: "Command Line Reference"
 seo: "mimik, edge, edgeEngine"
 ---
 
-## Objective
+# Objective
 
 [TO BE PROVIDED]
 
-## Intended Reader
+# Intended Reader
 
 [TO BE PROVIDED]
 
-## What You'll Be Doing
+# What You'll Be Doing
 
 [TO BE PROVIDED]
 
-## What You'll Need
+# What You'll Need
 
 [TO BE PROVIDED]
 
-## Main Content Area
+# [MAIN CONTENT TITLE]
 
 [TO BE PROVIDED]

@@ -1,8 +1,6 @@
 ---
-slug: "/market-considerations/transportation"
-date: "2021-06-11"
-title: "Market Considerations: Transportation"
-seo: "mimik, edge, edgeEngine"
+title: "mimik ande Transportation"
+seo: "mimik, edge, edgeEngine, mimik"
 ---
 
 [TO BE PROVIDED]

@@ -1,26 +1,24 @@
 ---
-slug: "/tutorials/working-with-clusters/working-with-clusters"
-date: "2021-06-11"
-title: "Working with Clusters"
+title: "Creating an edgeEngine Cluster for Linux"
 seo: "mimik, edge, edgeEngine"
 ---
 
-## Objective
+# Objective
 
 [TO BE PROVIDED]
 
-## Intended Reader
+# Intended Reader
 
 [TO BE PROVIDED]
 
-## What You'll Be Doing
+# What You'll Be Doing
 
 [TO BE PROVIDED]
 
-## What You'll Need
+# What You'll Need
 
 [TO BE PROVIDED]
 
-## Main Content Area
+# [MAIN CONTENT TITLE]
 
 [TO BE PROVIDED]
