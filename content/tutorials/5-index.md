@@ -1,6 +1,6 @@
 ---
-title: "Deploying a Microservice on an edgeEngine Cluster"
-seo: "mimik, edge, edgeEngine, Raspberry Pi"
+title: "Deploying a Cluster Aware Microservice"
+seo: "mimik, edge, edgeEngine, cluster, Raspberry Pi"
 ---
 
 # Objective
