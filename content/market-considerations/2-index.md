@@ -1,5 +1,5 @@
 ---
-title: "mimke and Manufacturing"
+title: "mimik and Manufacturing"
 seo: "mimik, edge, edgeEngine, manufacturing"
 ---
 
