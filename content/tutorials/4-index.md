@@ -2,15 +2,12 @@
 title: "Creating a Raspberry Pi edgeEngine Cluster"
 seo: "mimik, edge, edgeEngine, Raspberry Pi"
 ---
-
-
 # Objective
 
 The objective of this tutorial is to demonstrate how to get a group of Raspberry Pi computers up and running as a cluster of edgeEngine nodes using [Ansible](https://docs.ansible.com/) as the deployment automation mechanism.
 
 # Intended Reader
 The intended reader of this document is a person with programming or system administration skills. The reader should be comfortable with the concepts that go with basics of networking and computer configuration. Some familiarity creating bash scripts and operating a computer from the command line in a terminal window is expected.
-
 
 # What You'll Be Doing
 
@@ -32,18 +29,16 @@ In order to get full benefit for this tutorial, you'll need  the following:
 	* For more information about how to install Ansible on your preferred machine go [here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html).
 * A number of Raspberry Pi computers to form the edgeEngine cluster. The preferable number of Raspberry Pi computers for forming a edgeEngine cluster is at least 3 machines. The section that follows, ***[Setting up the Raspberry Pi machines](#setting-up-the-raspberry-pi-machines)*** has a link to a video that describes how to set up the Raspberry Pi computers with the Raspian operating system.
 
-
 # Getting the Computing Environment Up and Running With an Ansible Deployment
 
 The sections that follow show you how to prepare and execute the provisioning of the Raspberry Pi machines to form a edgeEngine cluster. 
 
-
 # Setting up the Raspberry Pi machines
 This project requires that all the Raspberry Pi machines in your intended edgeEginer cluster be up and running under the Raspian Desktop operating system. The easiest way to do this is to use the [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/) program.
 
-[This](https://youtu.be/ntaXWS8Lk34) 45 second video shows you how to create an image on a microSD card that you'll insert into the given Raspberry Pi device.
+This 45 second video shows you how to create an image on a microSD card that you'll insert into the given Raspberry Pi device.
 
-[Click to Watch Video](https://youtu.be/ntaXWS8Lk34)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ntaXWS8Lk34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Once the microSD card is inserted in the Raspberry Pi device and the machine is turned on, you'll be taken you through the final setup process to get Raspian up and running on the device. 
 
@@ -61,7 +56,6 @@ In order to get the setup scripts provided with the project to interact the Rasp
 |----------------------------------------------------------------------------|
 | **Figure 1: The wifi configuration dialog in Raspian Desktop setup**    |
 
-
 The article found [here](https://raspberrytips.com/raspberry-pi-wifi-setup/) describes the wifi set up process. You find wife configuration instructions in the section of the article titled, **Configure Wi-Fi on Raspbian Desktop**.
 
 ## Ensuring SSH is enabled
@@ -72,7 +66,6 @@ To enable `ssh` on the given Raspbery Pi device, do the following:
 |![ssh 1](https://phoenixnap.com/kb/wp-content/uploads/2021/04/raspberry-pi-configuration-preferences-gui.png)|
 |----------------------------------------------------------------------------|
 | **Figure 2: Accessing the Raspberry Pi Configuration dialog from the Raspian Desktop** |
-
 
 *Step 2:** Select Raspberry Pi Configuration from the Peferences submenu as shown n Figure 2 above.
 
@@ -145,7 +138,6 @@ To give a machine a unique name, take the following steps:
 
 The file, `/etc/hostname` will have the current name of the machine.
 
-
 **Step 3:** Strike the `i` key to put the `vi` editor into edit mode.
 
 **Step 4:** Change the content of `/etc/hostname` to a unique machine name using a serial naming convention. For example, if you plan to have 3 Raspberry Pi machines running in your cluster, you might name them:
@@ -190,7 +182,6 @@ ssh <pi@PI_MACHINE_IP_ADDRESS>
 `<PI_MACHINE_IP_ADDRESS>` is the IP address of the Raspberry Pi machine.
 
 **DO NOT TYPE THE SYMBOLS:** `<` or `>`
-
 
 **Step 3:** Since this will be your first login to the Raspberry Pi via `ssh` you'll be asked the following.
 
@@ -250,7 +241,6 @@ ansible 2.9.6
 
 ***Again, you must be running a version of Ansible 2.9 or later.***
 
-
 ## Giving the Ansible machine `ssh` access to the Raspberry Pi computers
 
 This installation process will implement access from the Ansible host to the Rasperry Pi computers using usename/password authentication over `ssh`.
@@ -289,7 +279,6 @@ Then once the project is cloned from the GitHub repository, navigate to the work
 
 You are now ready to configure the files necessary to deploy edgeEngine using Ansbible.
 
-
 ## Understanding the Structure of the Project
 
 The listing below shows the files and directories the make up the deployment automation process.
@@ -326,13 +315,11 @@ The sections that follow describe how you are to configure the files:
 * deploy.sh
 * hosts
 
-
 ## Configuring the `deploy.sh` file
 
 The file, `sample-automated-deployment/deploy.sh` is the bash script that kicks of the edgeEngine deployment in it's entirety. The contents of `deploy.sh` are shown below:
 
 ```
-
 # Add your Client ID
 export CLIENT_ID=<YOUR_CLIENT_ID>
 
@@ -340,7 +327,6 @@ export CLIENT_ID=<YOUR_CLIENT_ID>
 export DEVELOPER_ID_TOKEN=<YOUR_DEVELOPER_TOKEN_ID>
 
 export EDGE_INSTALLER=edgeSDK-raspbian-setup-v2.2.1.tar
-
 
 # Add the username and password for the Raspberry Pi machines.
 #
@@ -377,7 +363,6 @@ Create or choose a project on the mimik Project page.
 |----------------------------------------------------------------------------|
 | **Figure 5: The mimik Project page**|
 
-
 ### Getting the `Client ID`
 
 Copy the `Client ID` from the the project detail dialog. (See Figure 6 below.)
@@ -393,7 +378,6 @@ Paste the `Client ID` into the file, `deploy.sh`, at the `export CLIENT_ID` stat
 ... substituting the value of `Client ID` in place of the term `<YOUR_CLIENT_ID>`
 
 Save the file, `deploy.sh`.
-
 
 ### Getting the `Developer Token ID`
 
@@ -431,7 +415,6 @@ Save the file, `deploy.sh`.
 The following listing shows what a properly configure `deploy.sh` file looks like. Please be advised that all tokens have been obfuscated for security reasons.
 
 ```
-
 # Add your Client ID
 export CLIENT_ID=llxxx6xbx7d-1121-41z5-0137-1p7pxxxxxxvqr
 
@@ -478,7 +461,6 @@ You'll find the `hosts` to edit at the filepath:
 The listing below shows an example of a completed `hosts` file. The IP addresses of your installation will be different. You'll uses the IP addresses that are special for each of the Raspberry Pi machines you created earlier.
 
 ```
-
 [pi]
 pi1 ansible_host=pi@192.168.86.38 ansible_port=22
 pi2 ansible_host=pi@192.168.86.39 ansible_port=22
@@ -499,13 +481,11 @@ Once the `deploy.sh` and `hosts` files have been configured, you can excute the 
 
 **Step 3:** Execute the following command from within the directory, `./ansible-pi/sample-automated-deployment`
 
-
 ```
 sudo sh deploy.sh
 ```
 
 You'll be executing the command as `sudo` so the system will as you for your login password for the Ansible computer that you are running the script on.
-
 
 # Confirming the Deployment
 
