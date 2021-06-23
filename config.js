@@ -13,9 +13,9 @@ const config = {
     githubUrl: 'https://github.com/mimikgit',
     helpUrl: '',
     tweetText: '',
-    social: `<li><div>A</li>
-    <li><div>B</li>
-    <li><div>C</li>`,
+    social: `<li><div></li>
+    <li><div></li>
+    <li><div></li>`,
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,

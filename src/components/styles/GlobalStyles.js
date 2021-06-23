@@ -257,7 +257,7 @@ export const baseStyles = css`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #ffffff;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -369,12 +369,12 @@ export const baseStyles = css`
   /* Header section ends here */
   .sidebarTitle {
     /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
-    background-color: #f8f8f8;
+    background-color: #000000;
     padding: 18px 16px;
-    font-family: 'Poppins';
+    font-family: 'Arial';
     font-size: 18px;
     font-weight: 600;
-    color: #001934;
+    color: #ffffff;
     display: flex;
     align-items: center;
   }
