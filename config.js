@@ -31,15 +31,16 @@ const config = {
       '/key-concepts',
       '/tutorials',
       '/api',
-      '/glossary',
       '/faqs',
+      '/glossary',
       '/troubleshooting'
     ],
     collapsedNav: [
       '/introduction',
       '/key-concepts',
       '/tutorials',
-      '/api'
+      '/api',
+      '/faqs'
     ],
     links: [{ text: 'mimik', link: 'https://mimik.com' }],
     frontline: false,
