@@ -31,9 +31,6 @@ const config = {
       '/key-concepts',
       '/tutorials',
       '/api',
-      '/videos',
-      '/community',
-      '/market-considerations',
       '/glossary',
       '/faqs',
       '/troubleshooting'
@@ -42,10 +39,7 @@ const config = {
       '/introduction',
       '/key-concepts',
       '/tutorials',
-      '/api',
-      '/videos',
-      '/community',
-      '/market-considerations'
+      '/api'
     ],
     links: [{ text: 'mimik', link: 'https://mimik.com' }],
     frontline: false,
